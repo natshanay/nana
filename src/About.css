@@ -1,0 +1,22 @@
+.container ul{
+    display: flex;
+    list-style: none;
+    gap: 9px;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100%;
+    background-color: blue;
+    padding: 12px;
+    
+    
+    
+}
+.container ul a{
+    
+    position: relative;
+    left: 30%;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    
+}
