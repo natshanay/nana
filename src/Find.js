@@ -2,9 +2,8 @@ import React from 'react'
 import './Find.css'
 const Find = () => {
   return (
-    <div>
-        {/* <img src={}/> */}
-        find
+    <div className='find-us-container'>
+        <button className='find-us-btn'>Find Us</button>        
 
     </div>
   )

@@ -1,23 +1,23 @@
 import React from 'react'
 import './About.css'
-// import { a } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 import Logo from './Logo';
 const About = () => {
   return (
-    <div>
+    <>
         <div className='container'>
             <ul>
-                <a href="/aboutus">About Us</a >
-                <a href="/aboutus"><Logo/></a >
-                <a href="/empower" >Empowering Girls</a > 
-                <a href="/aboutus" >Programs</a >
-                <a href="/aboutus" >About</a >
-                <a href="/aboutus" >About</a >
-                <a href="/aboutus" >About</a>
+                <Link to="/aboutus">About Us</Link >
+                
+                <Link to="/empower" >Empowering Girls</Link > 
+                <Link to="/programs" >Progrmas</Link >
+                <Link to="/news" >News</Link >
+                <Link to="/landing" >Landing</Link >
+              
             </ul>
         </div>
 
-    </div>
+    </>
   )
 }
 

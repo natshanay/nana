@@ -2,10 +2,9 @@ import React from 'react'
 import './Donate.css'
 const Donate = () => {
   return (
-    <div>
-        {/* <img src={}/> */}
-        dontate
-    </div>
+    <div class="donate-container">
+    <button class="donate-btn">Donate</button>
+  </div>
   )
 }
 

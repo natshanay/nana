@@ -1,0 +1,37 @@
+/* Container styling for centering the button */
+.donate-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    
+    background-color: #fef6e4; /* Soft cream background */
+  }
+  
+  /* Button styling */
+  .donate-btn {
+    background-color: #ff6f61; /* Warm red-orange color */
+    color: white;             /* White text for contrast */
+    font-size: 18px;          /* Slightly larger text for emphasis */
+    font-weight: bold;        /* Bold text for importance */
+    padding: 12px 25px;       /* Padding around the text */
+    border: none;             /* Remove default border */
+    border-radius: 30px;      /* Rounded corners */
+    cursor: pointer;          /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transitions */
+  }
+  
+  /* Hover effect */
+  .donate-btn:hover {
+    background-color: #e6554d; /* Slightly darker red-orange */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    transform: translateY(-2px); /* Slight lift */
+  }
+  
+  /* Active button state */
+  .donate-btn:active {
+    background-color: #bf3c34; /* Darker red for active state */
+    transform: translateY(2px); /* Slight "pressed" effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+  }
+  

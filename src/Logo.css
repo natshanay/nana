@@ -1,0 +1,17 @@
+/* Basic styles for the logo container */
+
+  /* Styles for the logo image */
+  .logo {
+    width: 50px;       /* Small width for the logo */
+    height: auto;      /* Maintain the aspect ratio */
+    border-radius: 50%; /* Makes the logo circular */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animations */
+  }
+  
+  /* Hover effect */
+  .logo:hover {
+    transform: scale(1.2); /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
