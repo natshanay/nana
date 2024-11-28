@@ -1,16 +1,15 @@
-/* Container styling for centering the button */
+
 .find-us-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;    /* Center vertically */
-            /* Full viewport height */
-    background-color: #f9f9f9; /* Light background */
+    justify-content: center; 
+    align-items: center;   
+            
+    
   }
   
-  /* Button styling */
+  
   .find-us-btn {
     background-color: #007bff; /* Bright blue color */
-    color: white;             /* White text */
     font-size: 16px;          /* Medium-sized text */
     padding: 10px 20px;       /* Padding around the text */
     border: none;             /* Remove default border */
@@ -20,14 +19,14 @@
     transition: all 0.3s ease; /* Smooth transitions */
   }
   
-  /* Hover effect */
+  
   .find-us-btn:hover {
     background-color: #0056b3; /* Darker blue on hover */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
     transform: translateY(-2px); /* Slight lift */
   }
   
-  /* Active button state */
+  
   .find-us-btn:active {
     background-color: #003f7f; /* Even darker blue */
     transform: translateY(2px); /* Slight "pressed" effect */

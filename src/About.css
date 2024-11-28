@@ -1,22 +1,23 @@
-.container ul{
-    display: flex;
-    list-style: none;
-    gap: 9px;
-    cursor: pointer;
+/* About.css */
+.navbar {
+    margin-bottom: 0px; /* Add some space below the navbar */
+}
+
+.ml-auto{
     margin: 0 auto;
-    width: 100%;
-    background-color: blue;
-    padding: 12px;
-    
-    
-    
+    width: 670px;
+
 }
-.container ul a{
-    
-    position: relative;
-    left: 30%;
-    text-decoration: none;
-    font-size: 22px;
-    color: white;
-    
-}
+.navbar-brand {
+    font-size: 1.5rem; /* Customize the font size for the brand/logo */
+
+  }
+  
+  .nav-link {
+    font-size: 1.1rem; /* Adjust the font size for links */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
