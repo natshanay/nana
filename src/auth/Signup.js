@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Form } from 'react-bootstrap';  // Bootstrap components
-import './Sugnup.css';  // Import custom CSS for additional styling
+// import './Sugnup.css';  // Import custom CSS for additional styling
 
 const SignUp = () => {
   const [name, setName] = useState('');

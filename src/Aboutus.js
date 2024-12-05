@@ -5,7 +5,7 @@ const Aboutus = () => {
     <div>
       <section className='about'> 
         <div>
-          <h1>About Page</h1>
+          <h1></h1>
         </div>
       </section>
       <section>

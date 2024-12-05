@@ -1,72 +1,10 @@
-.logo{
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 0;
-    left: 0%;
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;           
 }
-.header{
-    position: relative;
-    top: 9%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;  /* Ensures items stretch from edge to edge */
-    align-items: stretch;            /* Ensures items stretch to fill the container's height */
-    width: 100%;
-    
-    /* background-color: rgb(255, 255, 255); */
+
+.group-end{
+  display:flex;
+  gap: 1rem;
 }
-.div{
-    
-    gap: 2rem;
-    display: flex;
-    position: relative;
-    left: 11%;
-    top: 11%;
-}
-.divv{
-    gap: 2rem;
-    position: relative;
-    right: 11%;
-    top: 11%;
-    
-    margin-left: 7px;
-display: flex;
-}
-/* Container styling for centering the button */
-.find-us-container {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;    /* Center vertically */
-            /* Full viewport height */
-    background-color: #f9f9f9; /* Light background */
-  }
-  
-  /* Button styling */
-  .find-us-btn {
-    background-color: #007bff; /* Bright blue color */
-    color: white;             /* White text */
-    font-size: 16px;          /* Medium-sized text */
-    padding: 10px 20px;       /* Padding around the text */
-    border: none;             /* Remove default border */
-    border-radius: 25px;      /* Rounded corners */
-    cursor: pointer;          /* Pointer cursor on hover */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    transition: all 0.3s ease; /* Smooth transitions */
-  }
-  
-  /* Hover effect */
-  .find-us-btn:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
-    transform: translateY(-2px); /* Slight lift */
-  }
-  
-  /* Active button state */
-  .find-us-btn:active {
-    background-color: #003f7f; /* Even darker blue */
-    transform: translateY(2px); /* Slight "pressed" effect */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow */
-  }
-  

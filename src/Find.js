@@ -1,9 +1,9 @@
 import React from 'react'
-import './Find.css'
+// import './Find.css'
 const Find = () => {
   return (
     <div className='find-us-container'>
-        <button className='find-us-btn'>Find Us</button>        
+        <button className='find-us-btn'>County Service</button>        
 
     </div>
   )

@@ -22,8 +22,12 @@ function App() {
 <Route path="/"
 element={
   <>
-  <About/>
-  <Hero/>
+ 
+<Hero/>
+
+
+
+
   
   </>
 }

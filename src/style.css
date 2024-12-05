@@ -1,0 +1,6 @@
+.container {  
+     display: flex;   
+     justify-content: space-between; /* Start and end groups */ 
+       align-items: center; }  
+.group-end {  
+     display: flex; /* Align items in the group horizontally */ }

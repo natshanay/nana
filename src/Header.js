@@ -4,32 +4,24 @@ import Logo from './Logo'
 import Find from './Find'
 import Donate from './Donate'
 import { Link } from 'react-router-dom'
+import Search from './Search'
 
 const Header = () => {
   return (
-    <div className='header'>
-       <div className='div'>
-       <div className='logo'>
-          <Link to="/"> <Logo/></Link>
-        </div>
-        <div>
-            <Find/>
-        </div>
-        <div>
-            <Donate/>
+    <div className='container'>
+      <div>
+      <Logo /> 
+      </div>
+      <div className='group-end'>
+      <div>County Service</div>
+      <div>Departments</div>
+      <div>About the country</div>
 
-        </div>
-       </div>
-     <div className='divv'>
-     <div className='find-us-container'>
-          
-          <Link to="Login"><button className='find-us-btn'>Login</button></Link>    
       </div>
-          <div className='find-us-container'>
-          <Link to="signup"><button className='find-us-btn'>Sign up</button></Link>    
-  
+      <div>
+      <Search/>
       </div>
-     </div>
+       
 
     </div>
   )
