@@ -1,4 +1,13 @@
-.hero{
-  font-size: 14px;
+.nana{
+  display: flex;
+  gap:2rem;
+  color: white;
+  background-color:rgb(7, 7, 69);
+  padding: 60px;
+  font-size: 23px;
   font-weight: 200;
+}
+.nana li{
+  text-decoration: none;
+  
 }

@@ -5,6 +5,7 @@ import Find from './Find'
 import Donate from './Donate'
 import { Link } from 'react-router-dom'
 import Search from './Search'
+import Searchimage from './Searchimage'
 
 const Header = () => {
   return (
@@ -16,10 +17,10 @@ const Header = () => {
       <div>County Service</div>
       <div>Departments</div>
       <div>About the country</div>
-
+    
+<div>      <Searchimage/></div>
       </div>
       <div>
-      <Search/>
       </div>
        
 

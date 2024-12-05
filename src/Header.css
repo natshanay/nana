@@ -1,10 +1,12 @@
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;           
+  align-items: center;     
+  font-family:23px;      
 }
 
 .group-end{
   display:flex;
+  font-size: 23px;
   gap: 1rem;
 }
