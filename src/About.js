@@ -2,7 +2,6 @@ import React from 'react';
 import './About.css';
 import {  Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap'; // Import Bootstrap components
-
 const About = () => {
   return (
     

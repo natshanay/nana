@@ -4,7 +4,7 @@ import Logo from './Logo'
 import Find from './Find'
 import Donate from './Donate'
 import { Link } from 'react-router-dom'
-import Login from './auth/Login'
+
 const Header = () => {
   return (
     <div className='header'>
@@ -23,11 +23,10 @@ const Header = () => {
      <div className='divv'>
      <div className='find-us-container'>
           
-          <Link to="Login"><button className='find-us-btn'>Login</button>    </Link>    
-  
+          <Link to="Login"><button className='find-us-btn'>Login</button></Link>    
       </div>
           <div className='find-us-container'>
-          <Link to="signup"><button className='find-us-btn'>Sign up</button>    </Link>    
+          <Link to="signup"><button className='find-us-btn'>Sign up</button></Link>    
   
       </div>
      </div>

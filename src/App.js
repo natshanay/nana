@@ -11,6 +11,7 @@ import Program from './Program';
 import Login from './auth/Login';
 import SignUp from './auth/Signup';
 import Herosection from './Herosection';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ element={
   <>
   <About/>
   <Hero/>
-  <Herosection/>
+  
   </>
 }
 
@@ -52,6 +53,8 @@ element={
 }/>
 
   </Routes>
+  <Footer/>
+
 </BrowserRouter>
     
   );
