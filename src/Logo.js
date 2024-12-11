@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className='logosh'>
         <span  ><img className='logo' src={img}/> </span>
-        <h1>Count of santa</h1>
+        
 
     </div>
   )

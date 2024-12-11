@@ -1,13 +1,28 @@
+
 .nana{
+  
   display: flex;
   gap:2rem;
-  color: white;
-  background-color:rgb(7, 7, 69);
+  margin-right: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  list-style: none;
+  background-color: #0c1955;
   padding: 60px;
-  font-size: 23px;
-  font-weight: 200;
-}
-.nana li{
-  text-decoration: none;
   
+  font-size: 50px;
+  cursor: pointer;
+  margin: 0 auto;
+  width: 100%;
+  
+  font-size:26px;
+  
+}
+.white{
+  text-decoration: none;
+  background-color: #0c1955;
+  color: white;
+  
+}
+.white:hover{
+  /* color: rgb(246, 169, 128); */
 }

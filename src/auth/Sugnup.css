@@ -1,29 +1,23 @@
-/* SignUp Container */
 .signup-container {
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
-  /* SignUp Form */
   .signup-form {
-    
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px; /* Set a max-width for the form */
+    max-width: 400px;
   }
   
-  /* Heading */
+  
   .signup-form h2 {
     font-size: 1.8rem;
     font-weight: 600;
     color: #333;
   }
   
-  /* Responsive Styling for Mobile Devices */
+  
   @media (max-width: 576px) {
     .signup-form {
       padding: 20px;

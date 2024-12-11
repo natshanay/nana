@@ -12,23 +12,34 @@ import Login from './auth/Login';
 import SignUp from './auth/Signup';
 import Herosection from './Herosection';
 import Footer from './Footer';
+import { Component } from 'react';
+import Compoment from './Compoment';
+import C from './C';
+import Find from './Find';
+import H from './H';
+import Product from './Product';
+import Videos from './Videos';
+import Flexv from './Flexv';
 
 function App() {
   return (
+   
     <BrowserRouter>
+ 
     <Header/>
     <Routes>
+ 
+
 
 <Route path="/"
 element={
   <>
+ <H/>
+ <Hero/>
+  <Product/>
  
-<Hero/>
-
-
-
-
-  
+ <Flexv/>
+ 
   </>
 }
 

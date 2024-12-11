@@ -1,6 +1,6 @@
-.container {  
-     display: flex;   
-     justify-content: space-between; /* Start and end groups */ 
-       align-items: center; }  
-.group-end {  
-     display: flex; /* Align items in the group horizontally */ }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(107, 146, 50);
+}
